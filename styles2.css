@@ -1,5 +1,9 @@
 /*======= ======= ======= HOMEPAGE ======= ======= =======*/
 
+body, html
+{
+    width: 100%;
+}
 .menu
 {
     justify-content: center;
@@ -168,7 +172,91 @@ a:link {
   color: Gold;
   font-weight: bold;
   font-family: Arial black;
-  font-size: 48px;
+  font-size: 50px;
+}
+.NFLicon
+{
+    position: absolute;
+    top: 70px;
+    opacity: 0.6;
+    z-index: -7;
+    display: flex;
+    flex: wrap;
+}
+#menubar
+{
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    margin: 15px;
+    display: block;
+}
+#menu-list
+{
+    height: 50px;
+    width: 100%;
+    border: 1px blue;
+    font-size: 24px;
+}
+#menu-list > a
+{
+    float: left;
+    margin: 0 100px;
+    padding: 5px;
+}
+
+/*======= ======= ======= MEDIA QUERIES ======= ======= =======*/
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+    .froyo
+    {
+        position: absolute;
+        right: 40px;
+        top: 260px;
+        visibility: hidden;
+}
+@media only screen and (max-width: 1020px) {
+    body {
+        background-color: lightblue;
+    }
+    .froyo
+    {
+        position: absolute;
+        right: 40px;
+        top: 260px;
+        visibility: hidden;
+}
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 635px;
+    height: 220px;
+    }
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 635px;
+    height: 220px;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    body {
+        background-color: light blue;
+    }
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 300px;
+    height: 300px;
+    }
+>>>>>>> navbar
 }
 
 .NFLicon
