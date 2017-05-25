@@ -177,9 +177,11 @@ a:link {
 .NFLicon
 {
     position: absolute;
-    top: 50px;
+    top: 70px;
     opacity: 0.6;
     z-index: -7;
+    display: flex;
+    flex: wrap;
 }
 #menubar
 {
@@ -200,4 +202,57 @@ a:link {
     float: left;
     margin: 0 100px;
     padding: 5px;
+}
+
+/*======= ======= ======= MEDIA QUERIES ======= ======= =======*/
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+    .froyo
+    {
+        position: absolute;
+        right: 40px;
+        top: 260px;
+        visibility: hidden;
+}
+@media only screen and (max-width: 1020px) {
+    body {
+        background-color: lightblue;
+    }
+    .froyo
+    {
+        position: absolute;
+        right: 40px;
+        top: 260px;
+        visibility: hidden;
+}
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 635px;
+    height: 220px;
+    }
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 635px;
+    height: 220px;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    body {
+        background-color: light blue;
+    }
+#me-niceguy
+{
+    background-image: url('Me-niceguy.jpg');
+    width: 300px;
+    height: 300px;
+    }
 }
